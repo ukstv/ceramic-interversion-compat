@@ -8,7 +8,8 @@
     "interop": "./dist/bin/run.js"
   },
   "scripts": {
-    "build": "tsc --project ."
+    "build": "tsc --project .",
+    "start": "npm run build && node ./dist/bin/run.js"
   },
   "keywords": [],
   "author": "",
