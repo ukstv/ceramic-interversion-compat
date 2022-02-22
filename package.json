@@ -1,0 +1,39 @@
+{
+  "name": "cross-version-interop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "interop": "./dist/bin/run.js"
+  },
+  "scripts": {
+    "build": "tsc --project ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "multiformats": "^9.6.4",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@ceramicnetwork/3id-did-resolver": "^1.4.16",
+    "@ceramicnetwork/blockchain-utils-linking": "^1.5.5",
+    "@ceramicnetwork/http-client": "^1.5.7",
+    "@ceramicnetwork/stream-caip10-link": "^1.2.9",
+    "@ceramicnetwork/stream-tile": "^1.5.7",
+    "@ethersproject/providers": "^5.5.3",
+    "@types/lodash": "^4.14.178",
+    "dids": "^2.4.3",
+    "ethers": "^5.5.4",
+    "it-all": "^1.0.6",
+    "key-did-provider-ed25519": "^1.1.0",
+    "key-did-resolver": "^1.4.4",
+    "lodash": "^4.17.21",
+    "pkh-did-resolver": "^0.3.7",
+    "uint8arrays": "^3.0.0"
+  }
+}
