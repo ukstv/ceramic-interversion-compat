@@ -8,7 +8,8 @@
     "interop": "./dist/bin/run.js"
   },
   "scripts": {
-    "build": "tsc --project ."
+    "build": "tsc --project .",
+    "start": "node ./dist/bin/run.js"
   },
   "keywords": [],
   "author": "",
@@ -20,20 +21,20 @@
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "@ceramicnetwork/3id-did-resolver": "^2.0.0-alpha.2",
-    "@ceramicnetwork/blockchain-utils-linking": "^2.0.0-alpha.2",
-    "@ceramicnetwork/http-client": "^2.0.0-alpha.2",
-    "@ceramicnetwork/stream-caip10-link": "^2.0.0-alpha.2",
-    "@ceramicnetwork/stream-tile": "^2.0.0-alpha.2",
+    "@ceramicnetwork/3id-did-resolver": "^2.0.0-alpha.3",
+    "@ceramicnetwork/blockchain-utils-linking": "^2.0.0-alpha.3",
+    "@ceramicnetwork/http-client": "^2.0.0-alpha.3",
+    "@ceramicnetwork/stream-caip10-link": "^2.0.0-alpha.3",
+    "@ceramicnetwork/stream-tile": "^2.0.0-alpha.3",
     "@ethersproject/providers": "^5.5.3",
     "@types/lodash": "^4.14.178",
     "dids": "^3.0.0-alpha.8",
     "ethers": "^5.5.4",
     "it-all": "^1.0.6",
     "key-did-provider-ed25519": "^2.0.0-alpha.0",
-    "key-did-resolver": "^2.0.0-alpha.2",
+    "key-did-resolver": "^2.0.0-alpha.3",
     "lodash": "^4.17.21",
-    "pkh-did-resolver": "^1.0.0-alpha.2",
+    "pkh-did-resolver": "^1.0.0-alpha.3",
     "uint8arrays": "^3.0.0"
   }
 }
